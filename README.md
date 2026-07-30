@@ -6,7 +6,7 @@ with [umbra-core](https://github.com/bkd-dotcom/umbra-core).
 ## Prerequisite
 
 ```bash
-pip install "umbra-core>=0.3.0"
+pip install "umbra-core>=0.5.0"
 ```
 
 Add a `.umbra/admission.yaml` to your repo (allowed/forbidden paths, diff budget,
@@ -51,6 +51,20 @@ Whichever agent opens the PR, make **Umbra Admission** a required check so nothi
 merges without a signed receipt:
 <https://github.com/marketplace/actions/umbra-admission>. In-editor guards are
 best-effort defense-in-depth; the CI check is the enforced gate.
+
+## 4. Scan & fix
+
+`umbra-core` also finds vulnerabilities and can govern the fix with Codex:
+
+```bash
+umbra scan .                              # SAST over the repo (7 languages, SARIF), offline & free
+umbra scan . --fix --fix-agent codex-cli  # draft a governed fix → admission → signed receipt
+```
+
+`--fix` is **bring-your-own-key** (your `OPENAI_API_KEY`, never shared, redacted
+from every artifact) and opens **branch-only** PRs — never merges. Works with
+OpenAI-compatible gateways (e.g. IBM ICA) via `--codex_model` / base-URL inputs.
+See [umbra-core: AUTOFIX_SETUP.md](https://github.com/bkd-dotcom/umbra-core/blob/main/docs/AUTOFIX_SETUP.md).
 
 ---
 
