@@ -3,6 +3,7 @@
 Govern coding-agent changes in [OpenAI Codex](https://developers.openai.com/codex)
 with [umbra-core](https://github.com/bkd-dotcom/umbra-core).
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ## Prerequisite
 
 ```bash
