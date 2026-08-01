@@ -1,9 +1,12 @@
 # Umbra for Codex
 
+> **Copyright (c) 2026 Binay Dalai. All rights reserved.**
+> This repository is strictly for viewing and contributing to the original project. You may not use, copy, modify, distribute, or commercialize this code for your own personal or commercial projects without explicit written permission. Only the original author retains the right to use and monetize this project.
+
+
 Govern coding-agent changes in [OpenAI Codex](https://developers.openai.com/codex)
 with [umbra-core](https://github.com/bkd-dotcom/umbra-core).
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ## Prerequisite
 
 ```bash
@@ -73,4 +76,4 @@ Part of the [Umbra platform](https://github.com/bkd-dotcom/umbra-umbrella). Gove
 
 ## License
 
-[MIT](LICENSE) © 2026 Binay Dalai.
+**Copyright (c) 2026 Binay Dalai. All rights reserved.** This code is not open source. You may not use, copy, modify, distribute, or commercialize it for your own personal or commercial purposes without explicit written permission from the author, who alone retains the right to use and monetize this project. See [CONTRIBUTING.md](CONTRIBUTING.md).
