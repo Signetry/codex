@@ -5,12 +5,12 @@
 
 
 Govern coding-agent changes in [OpenAI Codex](https://developers.openai.com/codex)
-with [umbra-core](https://github.com/bkd-dotcom/umbra-core).
+with [umbra-core](https://github.com/Signetry/core).
 
 ## Prerequisite
 
 ```bash
-pip install "umbra-core @ git+https://github.com/bkd-dotcom/umbra-core@v0.5.4"
+pip install "umbra-core @ git+https://github.com/Signetry/core@v0.5.4"
 ```
 
 Add a `.umbra/admission.yaml` to your repo (allowed/forbidden paths, diff budget,
@@ -68,11 +68,11 @@ umbra scan . --fix --fix-agent codex-cli  # draft a governed fix → admission �
 `--fix` is **bring-your-own-key** (your `OPENAI_API_KEY`, never shared, redacted
 from every artifact) and opens **branch-only** PRs — never merges. Works with
 OpenAI-compatible gateways (e.g. IBM ICA) via `--codex_model` / base-URL inputs.
-See [umbra-core: AUTOFIX_SETUP.md](https://github.com/bkd-dotcom/umbra-core/blob/main/docs/AUTOFIX_SETUP.md).
+See [umbra-core: AUTOFIX_SETUP.md](https://github.com/Signetry/core/blob/main/docs/AUTOFIX_SETUP.md).
 
 ---
 
-Part of the [Umbra platform](https://github.com/bkd-dotcom/umbra-umbrella). Governance logic lives in [umbra-core](https://github.com/bkd-dotcom/umbra-core); this integration never reimplements policy and never auto-merges.
+Part of the [Umbra platform](https://github.com/Signetry/signetry). Governance logic lives in [umbra-core](https://github.com/Signetry/core); this integration never reimplements policy and never auto-merges.
 
 ## License
 
