@@ -48,7 +48,7 @@ To exercise a change locally, install the pinned engine (same command as the REA
 prerequisite):
 
 ```bash
-pip install "signetry-core @ git+https://github.com/Signetry/core@v0.7.0"
+pip install "signetry-core @ git+https://github.com/Signetry/core@v0.8.0"
 ```
 
 Then point Codex at the MCP server / guard as described in the [README](README.md) and

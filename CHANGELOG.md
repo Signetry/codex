@@ -2,7 +2,10 @@
 
 Follows [Keep a Changelog](https://keepachangelog.com/) / [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [0.4.0] — 2026-09-01
+
+> First release **tagged in this repository**. The `0.3.0` entry below describes a
+> release cut in the pre-move repo, whose tag did not survive the org move.
 
 ### Changed
 
@@ -16,8 +19,8 @@ Follows [Keep a Changelog](https://keepachangelog.com/) / [SemVer](https://semve
 
 - Naming: CLI `signetry`, env vars `SIGNETRY_*`, config `.signetry/`, import package
   `signetry_core`, and prose/docs references use **Signetry**. Install pins now use
-  `signetry-core @ git+https://github.com/Signetry/core@v0.6.0` and
-  `signetry-reviewer @ git+https://github.com/Signetry/reviewer@v0.1.2`.
+  `signetry-core @ git+https://github.com/Signetry/core@v0.8.0` and
+  `signetry-reviewer @ git+https://github.com/Signetry/reviewer@v0.3.0`.
 - **The CLA's fallback licence grant is now non-exclusive.** It previously granted the
   Owner an *exclusive* licence where copyright assignment is not permitted by law, which
   would have stripped contributors of the right to use their own contribution — directly
